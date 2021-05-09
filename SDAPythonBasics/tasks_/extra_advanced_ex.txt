@@ -1,0 +1,11 @@
+
+As you have the files writer.py, search.py and delete.py. Follow the recommendations.
+
+1- Make your program in one file called phone_books.py:
+    -Create functions for writing, searching and deleting instead of having those in different files.
+    -Ask the user what He wants to do (insert, search, delete, finish the program)
+
+2- Create a function read_file(), this function can be used for other functions. It means you dont need
+to repeat the reading process anymore, instead of you can just use that function.
+
+3- Make the search able to find phone books by city. If you have more than one user in the same city, show them.

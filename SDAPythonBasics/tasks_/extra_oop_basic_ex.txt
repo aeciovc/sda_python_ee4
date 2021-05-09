@@ -1,0 +1,14 @@
+
+1 - Create Vehicle class with fields: name, type, color and value
+and methods: description() that returns a string describing the vehicle.
+
+    a.The Vehicle class initialization method should require name and price parameters and have default values for type and color.
+
+    b.Create vehicles list.
+
+    c.Write a loop that asks user 3 times for input regarding vehicle creation.
+With each loop iteration user should provide name and price and should be asked if he wants to provide type and color.
+If the user responds yes, he should be asked for the type and color. Once the input is collected, create new vehicle
+based on the input and add it to the vehicles list.
+
+    d.In a loop, print details of each car in the cars list.

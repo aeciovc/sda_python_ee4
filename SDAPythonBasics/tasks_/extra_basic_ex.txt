@@ -1,0 +1,30 @@
+
+1- Write an application that: (IF)
+
+a.Asks user for a number from 1 to 7.
+b.If the number provided by user is smaller than 1, prints out “There are no negative number days!”.
+c.For input number 1, prints out “You chose Monday”.
+d.If the number provided by user is greater than 7, prints out “There are only 7 days in a week!”.
+
+2- Ask the user to type 3 numbers. Print out which is the greatest and lowest.
+
+3- A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years.
+Ask user for their salary and year of service and print the net bonus amount.
+
+4- Take input of age of 3 people by user and determine oldest and youngest among them.
+
+5- Write an application that: (WHILE)
+
+a.Asks user for an input in a loop and prints it out.
+b.If the input is equal to “exit”, program terminates printing out provided input and “Done.”.
+c.If the input is equal to “exit-no-print”, program terminates without printing out anything.
+d.If the input is equal to “no-print”, program moves to next loop iteration without printing anything.
+e.If the input is different than “exit”, “exit-no-print” and “no-print”, program repeats.
+
+6- Write an application that prints a sum of all numbers between 20 and 30.
+
+7 - Ask the user to type numbers separated by comma (4,-8,2,-9,1). Print out how many numbers are positive and how many are negative.
+
+8- Given a list of numbers, return True if first and last number of a list is same
+
+9- Ask the user to type 5 fruits names, print out how many names were double and a list of non double fruit names.

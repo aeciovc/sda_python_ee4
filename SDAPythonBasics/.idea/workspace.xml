@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c52230b9-f634-418f-80a1-745aec7d50b2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1rHfUvgPOALTtVCCH50MoNXnZKz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tasks_" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tasks_" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tasks_" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.dictionary">
+    <configuration name="dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDAPythonBasics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hw_phonebook" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDAPythonBasics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tasks_" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks_/hw_phonebook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDAPythonBasics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inheritance.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="modules" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDAPythonBasics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="oop_constructors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDAPythonBasics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_constructors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dictionary" />
+        <item itemvalue="Python.modules" />
+        <item itemvalue="Python.hw_phonebook" />
+        <item itemvalue="Python.inheritance" />
+        <item itemvalue="Python.oop_constructors" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c52230b9-f634-418f-80a1-745aec7d50b2" name="Default Changelist" comment="" />
+      <created>1618637954963</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618637954963</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1200" y="90" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618648888819">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state x="-1200" y="90" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-217.1920.1057/0.23.1792.1041/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618648888819" />
+    <state x="-1197" y="21" key="#xdebugger.evaluate" timestamp="1619251181674">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state x="-1197" y="21" key="#xdebugger.evaluate/-1920.-217.1920.1057/0.23.1792.1042/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618643903045" />
+    <state x="-1197" y="21" key="#xdebugger.evaluate/-1920.-217.1920.1057/0.23.1792.1044/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619251181674" />
+    <state x="-1197" y="21" key="#xdebugger.evaluate/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.1001@-1920.-217.1920.1057" timestamp="1618736027330" />
+    <state x="-1197" y="7" key="#xdebugger.evaluate/-1920.-217.1920.995/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.995" timestamp="1618648281859" />
+    <state width="1771" height="319" key="GridCell.Tab.0.bottom" timestamp="1620453827144">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="280" key="GridCell.Tab.0.bottom/-1920.-217.1920.1001/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.1001" timestamp="1618733303311" />
+    <state width="1771" height="319" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1620453827144" />
+    <state width="1771" height="319" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@0.23.1792.1033" timestamp="1620453122213" />
+    <state width="1771" height="349" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1037/1792.-275.1920.1057@0.23.1792.1037" timestamp="1618638050943" />
+    <state width="1899" height="280" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1041/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618647819072" />
+    <state width="1899" height="349" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1042/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618643996298" />
+    <state width="1899" height="325" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1043/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619256027886" />
+    <state width="1771" height="325" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1044/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619512526822" />
+    <state width="1899" height="224" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.1001@-1920.-217.1920.1057" timestamp="1618736214463" />
+    <state width="1899" height="262" key="GridCell.Tab.0.bottom/-1920.-217.1920.995/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.995" timestamp="1618648450527" />
+    <state width="1771" height="319" key="GridCell.Tab.0.center" timestamp="1620453827143">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="280" key="GridCell.Tab.0.center/-1920.-217.1920.1001/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.1001" timestamp="1618733303310" />
+    <state width="1771" height="319" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1620453827143" />
+    <state width="1771" height="319" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@0.23.1792.1033" timestamp="1620453122212" />
+    <state width="1771" height="349" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1037/1792.-275.1920.1057@0.23.1792.1037" timestamp="1618638050942" />
+    <state width="1899" height="280" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1041/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618647819071" />
+    <state width="1899" height="349" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1042/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618643996297" />
+    <state width="1899" height="325" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1043/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619256027885" />
+    <state width="1771" height="325" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1044/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619512526822" />
+    <state width="1899" height="224" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.1001@-1920.-217.1920.1057" timestamp="1618736214462" />
+    <state width="1899" height="262" key="GridCell.Tab.0.center/-1920.-217.1920.995/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.995" timestamp="1618648450526" />
+    <state width="1771" height="319" key="GridCell.Tab.0.left" timestamp="1620453827143">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="280" key="GridCell.Tab.0.left/-1920.-217.1920.1001/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.1001" timestamp="1618733303310" />
+    <state width="1771" height="319" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1620453827143" />
+    <state width="1771" height="319" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@0.23.1792.1033" timestamp="1620453122212" />
+    <state width="1771" height="349" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1037/1792.-275.1920.1057@0.23.1792.1037" timestamp="1618638050942" />
+    <state width="1899" height="280" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1041/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618647819070" />
+    <state width="1899" height="349" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1042/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618643996296" />
+    <state width="1899" height="325" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1043/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619256027885" />
+    <state width="1771" height="325" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1044/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619512526821" />
+    <state width="1899" height="224" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.1001@-1920.-217.1920.1057" timestamp="1618736214461" />
+    <state width="1899" height="262" key="GridCell.Tab.0.left/-1920.-217.1920.995/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.995" timestamp="1618648450526" />
+    <state width="1771" height="319" key="GridCell.Tab.0.right" timestamp="1620453827143">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="280" key="GridCell.Tab.0.right/-1920.-217.1920.1001/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.1001" timestamp="1618733303311" />
+    <state width="1771" height="319" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1620453827143" />
+    <state width="1771" height="319" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@0.23.1792.1033" timestamp="1620453122213" />
+    <state width="1771" height="349" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1037/1792.-275.1920.1057@0.23.1792.1037" timestamp="1618638050943" />
+    <state width="1899" height="280" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1041/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618647819071" />
+    <state width="1899" height="349" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1042/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618643996298" />
+    <state width="1899" height="325" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1043/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619256027885" />
+    <state width="1771" height="325" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1044/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619512526822" />
+    <state width="1899" height="224" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.1001@-1920.-217.1920.1057" timestamp="1618736214462" />
+    <state width="1899" height="262" key="GridCell.Tab.0.right/-1920.-217.1920.995/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.995" timestamp="1618648450526" />
+    <state width="1899" height="336" key="GridCell.Tab.1.bottom" timestamp="1619512526817">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="280" key="GridCell.Tab.1.bottom/-1920.-217.1920.1001/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.1001" timestamp="1618733303312" />
+    <state width="1771" height="349" key="GridCell.Tab.1.bottom/-1920.-217.1920.1057/0.23.1792.1037/1792.-275.1920.1057@0.23.1792.1037" timestamp="1618638050747" />
+    <state width="1899" height="283" key="GridCell.Tab.1.bottom/-1920.-217.1920.1057/0.23.1792.1041/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618647177022" />
+    <state width="1899" height="349" key="GridCell.Tab.1.bottom/-1920.-217.1920.1057/0.23.1792.1042/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618644007893" />
+    <state width="1899" height="329" key="GridCell.Tab.1.bottom/-1920.-217.1920.1057/0.23.1792.1043/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618726424747" />
+    <state width="1899" height="336" key="GridCell.Tab.1.bottom/-1920.-217.1920.1057/0.23.1792.1044/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619512526817" />
+    <state width="1899" height="224" key="GridCell.Tab.1.bottom/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.1001@-1920.-217.1920.1057" timestamp="1618736214465" />
+    <state width="1899" height="262" key="GridCell.Tab.1.bottom/-1920.-217.1920.995/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.995" timestamp="1618648356457" />
+    <state width="1899" height="336" key="GridCell.Tab.1.center" timestamp="1619512526816">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="280" key="GridCell.Tab.1.center/-1920.-217.1920.1001/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.1001" timestamp="1618733303312" />
+    <state width="1771" height="349" key="GridCell.Tab.1.center/-1920.-217.1920.1057/0.23.1792.1037/1792.-275.1920.1057@0.23.1792.1037" timestamp="1618638050745" />
+    <state width="1899" height="283" key="GridCell.Tab.1.center/-1920.-217.1920.1057/0.23.1792.1041/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618647177021" />
+    <state width="1899" height="349" key="GridCell.Tab.1.center/-1920.-217.1920.1057/0.23.1792.1042/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618644007891" />
+    <state width="1899" height="329" key="GridCell.Tab.1.center/-1920.-217.1920.1057/0.23.1792.1043/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618726424746" />
+    <state width="1899" height="336" key="GridCell.Tab.1.center/-1920.-217.1920.1057/0.23.1792.1044/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619512526816" />
+    <state width="1899" height="224" key="GridCell.Tab.1.center/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.1001@-1920.-217.1920.1057" timestamp="1618736214464" />
+    <state width="1899" height="262" key="GridCell.Tab.1.center/-1920.-217.1920.995/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.995" timestamp="1618648356456" />
+    <state width="1899" height="336" key="GridCell.Tab.1.left" timestamp="1619512526816">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="280" key="GridCell.Tab.1.left/-1920.-217.1920.1001/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.1001" timestamp="1618733303311" />
+    <state width="1771" height="349" key="GridCell.Tab.1.left/-1920.-217.1920.1057/0.23.1792.1037/1792.-275.1920.1057@0.23.1792.1037" timestamp="1618638050745" />
+    <state width="1899" height="283" key="GridCell.Tab.1.left/-1920.-217.1920.1057/0.23.1792.1041/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618647177020" />
+    <state width="1899" height="349" key="GridCell.Tab.1.left/-1920.-217.1920.1057/0.23.1792.1042/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618644007890" />
+    <state width="1899" height="329" key="GridCell.Tab.1.left/-1920.-217.1920.1057/0.23.1792.1043/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618726424746" />
+    <state width="1899" height="336" key="GridCell.Tab.1.left/-1920.-217.1920.1057/0.23.1792.1044/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619512526816" />
+    <state width="1899" height="224" key="GridCell.Tab.1.left/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.1001@-1920.-217.1920.1057" timestamp="1618736214463" />
+    <state width="1899" height="262" key="GridCell.Tab.1.left/-1920.-217.1920.995/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.995" timestamp="1618648356455" />
+    <state width="1899" height="336" key="GridCell.Tab.1.right" timestamp="1619512526817">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="280" key="GridCell.Tab.1.right/-1920.-217.1920.1001/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.1001" timestamp="1618733303312" />
+    <state width="1771" height="349" key="GridCell.Tab.1.right/-1920.-217.1920.1057/0.23.1792.1037/1792.-275.1920.1057@0.23.1792.1037" timestamp="1618638050746" />
+    <state width="1899" height="283" key="GridCell.Tab.1.right/-1920.-217.1920.1057/0.23.1792.1041/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618647177021" />
+    <state width="1899" height="349" key="GridCell.Tab.1.right/-1920.-217.1920.1057/0.23.1792.1042/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618644007892" />
+    <state width="1899" height="329" key="GridCell.Tab.1.right/-1920.-217.1920.1057/0.23.1792.1043/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618726424747" />
+    <state width="1899" height="336" key="GridCell.Tab.1.right/-1920.-217.1920.1057/0.23.1792.1044/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619512526817" />
+    <state width="1899" height="224" key="GridCell.Tab.1.right/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.1001@-1920.-217.1920.1057" timestamp="1618736214464" />
+    <state width="1899" height="262" key="GridCell.Tab.1.right/-1920.-217.1920.995/0.23.1792.1097/1792.-275.1920.1057@-1920.-217.1920.995" timestamp="1618648356456" />
+    <state x="-1451" y="-50" key="SettingsEditor" timestamp="1620453814770">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state x="-1451" y="-50" key="SettingsEditor/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1620453814770" />
+    <state x="-1451" y="-50" key="SettingsEditor/-1920.-217.1920.1057/0.23.1792.1042/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1618639751140" />
+    <state x="438" y="188" key="SettingsEditor/-1920.-217.1920.1057/0.23.1792.1042/1792.-275.1920.1057@0.23.1792.1042" timestamp="1618989414261" />
+    <state x="-1451" y="-50" key="SettingsEditor/-1920.-217.1920.1057/0.23.1792.1044/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619245175336" />
+    <state x="-1295" y="18" width="670" height="676" key="search.everywhere.popup" timestamp="1619245565250">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state x="-1295" y="18" width="670" height="676" key="search.everywhere.popup/-1920.-217.1920.1057/0.23.1792.1044/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1619245565250" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/control_flows.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/files_serch_ex.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/files_delete_ex.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/loop_while.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/loop_while.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/loop_while.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/loop_for.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/loop_for_ex.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/loop_for_ex.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/functions.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/functions.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/functions.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/functions.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/functions.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/functions.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/functions.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/oop.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/oop.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/oop.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/oop_constructors.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/oop_constructors.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

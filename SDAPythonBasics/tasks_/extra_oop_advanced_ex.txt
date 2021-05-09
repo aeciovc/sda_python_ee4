@@ -1,0 +1,13 @@
+
+1 - Lets improve our solution (phone book) that currently is storing, removing and searching contacts.
+
+a. Create a class that represents a contact with fields (name, number and city);
+b. Create a method that returns a string formatted for the contact, "Name - Number - City"
+c. Create two properties, first_name and last_name. You should return the proper data for each one using the name (full name) field stored.
+d*. Use a class to instanciate a contact based on values that the user typed and store it into the file.
+e*. Use the class to build a list of contacts (objects from Contact class) and iterate over that.
+
+2- Use the json third module for storing/retrieve data to/from the file. The methods dumps and loads will be useful for that.
+
+
+

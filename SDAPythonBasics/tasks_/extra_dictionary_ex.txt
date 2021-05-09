@@ -1,0 +1,13 @@
+
+1 - Given dictionary {1: "one", 2: "two", 3: "three"}:
+
+a.Use len() to print out its length.
+b.Using set-item operator [], add a new key-pair: 4:"four".
+c.Using get-item operator [], print out the value assigned to key 2.
+d.Using get-item operator [], print out value for unassigned key, like 10. What happens?
+e.Using dictionary function get(key), replace the previous get-item operator [] and print out the value for key 10. What happens?
+f.Using dictionary function get(key, default), print out the value for key 10, this time setting default value to "unknown".
+g.Using dictionary function get(key, default), print out the value for key 3. Set default value to "unknown".
+h.Use pop() to print out value assigned to 2. Print out the dictionary after using pop().
+i.Create a new dictionary {0: "zero"}. Using update(), update main dictionary with values from the new dictionary. Print out the main dictionary.
+j.Using clear(), clear the dictionary.

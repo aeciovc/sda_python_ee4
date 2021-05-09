@@ -1,0 +1,14 @@
+# writer.py
+# Ask the user for name/phonenumber/city
+# Store his/her data into a file using this format:
+{
+    'aecio': {'phonenumber':'5435345', 'city':'Tallinn'},
+    'sebastian': {'phonenumber':'5345345', 'city':'Parnu'},
+    'karen': {'phonenumber':'5474868', 'city':'Tartu'}
+}
+
+# search.py
+# Ask the user a name and shows his/her data in case of this user has been found
+
+# delete.py
+# Ask the user a name and delete this name from the file
