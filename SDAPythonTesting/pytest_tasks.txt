@@ -1,0 +1,31 @@
+
+
+Task 1
+
+1- Write a module (contact.py) and a class (Contact) with fields (name, home_phone, mobile_phone, email)
+2- name and at least one phone number are required, the phones should have the country code.
+3- Write the test cases:
+
+    a- creating a Contact with name without any number
+    b- creating a Contact with name and home phone using an invalid country_code
+    c- creating a Contact with name and home phone using an invalid email
+
+4- Properties and methods recommended:
+
+    - home - returns the phone number without country code
+    - mobile - returns the mobile number without country code
+    - has_email() - returns True if the contact has an email
+    - country - returns the country name for that phone number (+372 >> Estonia)
+
+
+Task 2
+
+1- Write a module (files.py) which is responsible for managing the file content.
+2- Create a class (TextFile) with the methods below:
+
+    - read(file_path)
+    - write(content)
+    - remove(file_path)
+    - is_empty()
+    - is_exists()
+

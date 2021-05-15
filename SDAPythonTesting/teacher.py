@@ -14,3 +14,7 @@ class Teacher:
     @property
     def has_master_degree(self):
         return self.master_degree
+
+
+class Director:
+    pass

@@ -1,0 +1,11 @@
+
+Task 1
+
+- Based on world_time package, write few tests for that:
+
+    a- when informing an invalid IP
+    b- when a connection is not working
+
+Task 2
+
+- TextFile class

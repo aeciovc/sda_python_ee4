@@ -1,16 +1,14 @@
 
-- Task 1
+-Task 1
 
-1 - Write a class (Student) with fields (name, age, grade)
-2 - Name and age are required when instantiating a student, and the default for grade is None (0..10)
-3 - One method that returns True if the student is approved (grade>=7)
+1- Write a class (Student) with fields (name, age, grade)
+2- Name and age are required when instantiating a student, and the default for grade is None (0..10)
+3- One method that returns True if the student is approved (grade>=7)
 
 
-- Task 2
+-Task 2
 
-1 - Write a class (Teacher) with fields (name, years_of_experience, master_degree, topics)
-2 - Name and years_of_experience are required when instantiating a teacher, default for master degree is False,
+1- Write a class (Teacher) with fields (name, years_of_experience, master_degree, topics)
+2- Name and years_of_experience are required when instantiating a teacher, default for master degree is False,
 default for topics is []
-3 - One method to return how many topics the teacher teachs.
-
-
+3- One method to return how many topics the teacher teachs.
