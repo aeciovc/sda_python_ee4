@@ -9,6 +9,7 @@ Task 1
     a- creating a Contact with name without any number
     b- creating a Contact with name and home phone using an invalid country_code
     c- creating a Contact with name and home phone using an invalid email
+    d- creating a Contact with name and an invalid home/mobile phone
 
 4- Properties and methods recommended:
 

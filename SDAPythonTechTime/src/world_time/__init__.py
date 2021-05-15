@@ -4,5 +4,11 @@ URL = 'http://worldtimeapi.org/api/ip/'
 
 
 def get_time_by_ip(ip):
-    result = requests.get(URL + ip)
+    resp = requests.get(URL + ip)
+
+    result = resp.json()
+
+    if result == {'msg': '503 Unavailable'}:
+        return None
+
     return result.json()
