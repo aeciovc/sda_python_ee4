@@ -64,3 +64,21 @@ def test_multiplicate_two_numbers_success():
 
     # assert
     assert result == 10
+
+
+def test_subtracting_two_numbers_success():
+
+    # input
+    a = 30
+    b = 20
+    operator = '-'
+
+    # process
+    result = calc.calculate(a, b, operator)
+
+    # assert
+    assert result == 10
+
+
+
+

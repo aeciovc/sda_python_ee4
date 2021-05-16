@@ -1,4 +1,4 @@
-from world_time import get_time_by_ip
+from src.world_time import get_time_by_ip
 
 from unittest.mock import patch, MagicMock
 

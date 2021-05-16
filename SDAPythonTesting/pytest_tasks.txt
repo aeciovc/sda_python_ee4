@@ -24,9 +24,10 @@ Task 2
 1- Write a module (files.py) which is responsible for managing the file content.
 2- Create a class (TextFile) with the methods below:
 
-    - read(file_path)
-    - write(content)
-    - remove(file_path)
-    - is_empty()
-    - is_exists()
+    - constructor(file_path) -> receives the file path to be loaded
+    - read()                 -> returns the content of the file
+    - write(content)         -> Writes the content to the File
+    - remove()               -> Removes the file
+    - is_empty()             -> Checks if the file is empty
+    - is_exists()            -> Checks if the file exists
 
