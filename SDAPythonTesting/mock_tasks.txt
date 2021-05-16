@@ -8,4 +8,4 @@ Task 1
 
 Task 2
 
-- TextFile class
+- Given your TextFile class, write tests for all methods using mocks for operations which requires OS interaction.

@@ -41,6 +41,7 @@ def test_sum_two_numbers_success():
     # assert
     assert result == 5
 
+
 def test_divide_by_zero_fail():
     # input
     a = 4
@@ -50,3 +51,16 @@ def test_divide_by_zero_fail():
     # process and assert
     with pytest.raises(ZeroDivisionError):
         calc.calculate(a, b, operator)
+
+
+def test_multiplicate_two_numbers_success():
+    # input
+    a = 5
+    b = 2
+    operator = '*'
+
+    # process
+    result = calc.calculate(a, b, operator)
+
+    # assert
+    assert result == 10

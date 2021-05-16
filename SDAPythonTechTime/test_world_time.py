@@ -1,4 +1,4 @@
-import world_time
+from world_time import get_time_by_ip
 
 from unittest.mock import patch, MagicMock
 
@@ -11,7 +11,7 @@ class TestWorldTimeConnections:
 
         with patch('requests.get', mock):
 
-            result = world_time.get_time_by_ip('...')
+            result = get_time_by_ip('...')
 
             assert result == None
 
