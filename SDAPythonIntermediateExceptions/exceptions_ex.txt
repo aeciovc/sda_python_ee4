@@ -1,0 +1,4 @@
+
+1- Create a program read from the users (name, age)
+2- In case of user type a blank name raise a ValueError exception
+3- Create your own custom exception (AgeLimitException) and raise that if the user is less than 18 years old
