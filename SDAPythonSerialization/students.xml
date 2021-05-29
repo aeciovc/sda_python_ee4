@@ -1,0 +1,12 @@
+<StudentList>
+    <Student>
+        <Name>Peter</Name>
+        <Age>24</Age>
+        <Scholarship>400</Scholarship>
+    </Student>
+    <Student>
+        <Name>July</Name>
+        <Age>27</Age>
+        <Scholarship>160</Scholarship>
+    </Student>
+</StudentList>

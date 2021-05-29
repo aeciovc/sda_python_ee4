@@ -1,0 +1,5 @@
+# Exercise
+# 1- Ask the user to type name, age and scholarship
+# 2- Create a new instance of Student(name, age, scholarship)
+# 3- Create a method (to_csv(self)) to represent a student in a CSV format
+# 4- Save the student into a CSV file
