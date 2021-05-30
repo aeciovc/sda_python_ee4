@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="735b7c89-41f8-45ac-8455-d77a392a6ac8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/bin/Activate.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/bin/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/bin/activate.csh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/bin/activate.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/bin/easy_install" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/bin/easy_install-3.8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/bin/pip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/bin/pip3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/bin/pip3.8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/bin/python" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/bin/python3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/lib/python3.8/site-packages/easy-install.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/lib/python3.8/site-packages/setuptools.pth" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/pyvenv.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/csv_exercise.txt" beforeDir="false" afterPath="$PROJECT_DIR$/csv_exercise.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/person.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students.csv" beforeDir="false" afterPath="$PROJECT_DIR$/students.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +38,49 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.csv_writer">
+  <component name="RunManager" selected="Python.csv_exercise_reader">
+    <configuration name="csv_exercise_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDAPythonSerialization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv_exercise_reader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="csv_exercise_writer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDAPythonSerialization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv_exercise_writer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="csv_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SDAPythonSerialization" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,6 +146,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.csv_exercise_reader" />
+        <item itemvalue="Python.csv_exercise_writer" />
         <item itemvalue="Python.csv_writer" />
         <item itemvalue="Python.csv_reader" />
         <item itemvalue="Python.pickle_sample" />
@@ -135,21 +168,52 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="413" key="GridCell.Tab.0.bottom" timestamp="1622286223235">
+    <state width="613" height="466" key="DebuggerActiveHint" timestamp="1622358597361">
       <screen x="-1920" y="-217" width="1920" height="1057" />
     </state>
-    <state width="1899" height="413" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622286223235" />
-    <state width="1899" height="413" key="GridCell.Tab.0.center" timestamp="1622286223234">
+    <state width="613" height="466" key="DebuggerActiveHint/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622358597361" />
+    <state width="1899" height="372" key="GridCell.Tab.0.bottom" timestamp="1622359917290">
       <screen x="-1920" y="-217" width="1920" height="1057" />
     </state>
-    <state width="1899" height="413" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622286223234" />
-    <state width="1899" height="413" key="GridCell.Tab.0.left" timestamp="1622286223233">
+    <state width="1899" height="372" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359917290" />
+    <state width="1899" height="372" key="GridCell.Tab.0.center" timestamp="1622359917289">
       <screen x="-1920" y="-217" width="1920" height="1057" />
     </state>
-    <state width="1899" height="413" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622286223233" />
-    <state width="1899" height="413" key="GridCell.Tab.0.right" timestamp="1622286223234">
+    <state width="1899" height="372" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359917289" />
+    <state width="1899" height="372" key="GridCell.Tab.0.left" timestamp="1622359917288">
       <screen x="-1920" y="-217" width="1920" height="1057" />
     </state>
-    <state width="1899" height="413" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622286223234" />
+    <state width="1899" height="372" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359917288" />
+    <state width="1899" height="372" key="GridCell.Tab.0.right" timestamp="1622359917289">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="372" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359917289" />
+    <state width="1899" height="357" key="GridCell.Tab.1.bottom" timestamp="1622359022541">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="357" key="GridCell.Tab.1.bottom/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359022541" />
+    <state width="1899" height="357" key="GridCell.Tab.1.center" timestamp="1622359022540">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="357" key="GridCell.Tab.1.center/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359022540" />
+    <state width="1899" height="357" key="GridCell.Tab.1.left" timestamp="1622359022539">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="357" key="GridCell.Tab.1.left/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359022539" />
+    <state width="1899" height="357" key="GridCell.Tab.1.right" timestamp="1622359022540">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="357" key="GridCell.Tab.1.right/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359022540" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/csv_exercise_reader.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

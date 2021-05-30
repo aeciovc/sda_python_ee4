@@ -29,6 +29,12 @@ class Student(Person):
     def show_finance(self):
         return self.scholarship
 
+    def to_csv(self):
+        return f"{self.name},{self.age},{self.scholarship}"
+
+    def __str__(self):
+        return f"{self.name} is {self.age} years old. Scholarship is {self.scholarship} - {self.show_finance()}"
+
     @classmethod
     def create_from_string(cls, sentence): #cls is the Student class
         name, age, scholarship = sentence.split()
