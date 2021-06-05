@@ -1,0 +1,12 @@
+# Task 1
+# 1- Ask the user to type name, age, rate and num_of_hours
+# 2- Create a new instance of Employee(name, age, rate, num_of_hours)
+# 3- Create a method (as_json(self)) to represent a employee in JSON format (dict)
+# 4- Save the employee into the json file
+
+# Task 2
+# 1- Read the JSON content from the file
+# 2- Build a list of Employee objects
+# 3- Overwrite the __str__ method in the Employee class to return the employee data
+#    formatted properly (name, age, rate, num_of_hours and finance)
+# 4- Show all employees

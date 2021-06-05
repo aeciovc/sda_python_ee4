@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="735b7c89-41f8-45ac-8455-d77a392a6ac8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/csv_exercise.txt" beforeDir="false" afterPath="$PROJECT_DIR$/csv_exercise.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/person.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students.csv" beforeDir="false" afterPath="$PROJECT_DIR$/students.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students.json" beforeDir="false" afterPath="$PROJECT_DIR$/students.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.csv_exercise_reader">
+  <component name="RunManager" selected="Python.json_exercise">
     <configuration name="csv_exercise_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SDAPythonSerialization" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -81,7 +82,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="csv_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="json_exercise" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SDAPythonSerialization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,7 +94,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv_reader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json_exercise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -102,7 +103,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="csv_writer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="json_reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SDAPythonSerialization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,7 +115,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/csv_writer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json_reader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,7 +124,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pickle_sample" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="json_writer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="SDAPythonSerialization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,7 +136,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pickle_sample.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/json_writer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.json_exercise" />
+        <item itemvalue="Python.json_reader" />
+        <item itemvalue="Python.json_writer" />
         <item itemvalue="Python.csv_exercise_reader" />
         <item itemvalue="Python.csv_exercise_writer" />
-        <item itemvalue="Python.csv_writer" />
-        <item itemvalue="Python.csv_reader" />
-        <item itemvalue="Python.pickle_sample" />
       </list>
     </recent_temporary>
   </component>
@@ -168,42 +169,50 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="613" height="466" key="DebuggerActiveHint" timestamp="1622358597361">
+    <state x="-1223" y="121" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622362988981">
       <screen x="-1920" y="-217" width="1920" height="1057" />
     </state>
-    <state width="613" height="466" key="DebuggerActiveHint/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622358597361" />
-    <state width="1899" height="372" key="GridCell.Tab.0.bottom" timestamp="1622359917290">
+    <state x="-1223" y="121" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622362988981" />
+    <state x="-1197" y="-11" width="889" height="564" key="#xdebugger.evaluate" timestamp="1622366338168">
       <screen x="-1920" y="-217" width="1920" height="1057" />
     </state>
-    <state width="1899" height="372" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359917290" />
-    <state width="1899" height="372" key="GridCell.Tab.0.center" timestamp="1622359917289">
+    <state x="-1197" y="-11" width="889" height="564" key="#xdebugger.evaluate/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622366338168" />
+    <state width="1128" height="466" key="DebuggerActiveHint" timestamp="1622366458930">
       <screen x="-1920" y="-217" width="1920" height="1057" />
     </state>
-    <state width="1899" height="372" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359917289" />
-    <state width="1899" height="372" key="GridCell.Tab.0.left" timestamp="1622359917288">
+    <state width="1128" height="466" key="DebuggerActiveHint/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622366458930" />
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom" timestamp="1622367243022">
       <screen x="-1920" y="-217" width="1920" height="1057" />
     </state>
-    <state width="1899" height="372" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359917288" />
-    <state width="1899" height="372" key="GridCell.Tab.0.right" timestamp="1622359917289">
+    <state width="1899" height="275" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622367243022" />
+    <state width="1899" height="275" key="GridCell.Tab.0.center" timestamp="1622367243021">
       <screen x="-1920" y="-217" width="1920" height="1057" />
     </state>
-    <state width="1899" height="372" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359917289" />
-    <state width="1899" height="357" key="GridCell.Tab.1.bottom" timestamp="1622359022541">
+    <state width="1899" height="275" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622367243021" />
+    <state width="1899" height="275" key="GridCell.Tab.0.left" timestamp="1622367243020">
       <screen x="-1920" y="-217" width="1920" height="1057" />
     </state>
-    <state width="1899" height="357" key="GridCell.Tab.1.bottom/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359022541" />
-    <state width="1899" height="357" key="GridCell.Tab.1.center" timestamp="1622359022540">
+    <state width="1899" height="275" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622367243020" />
+    <state width="1899" height="275" key="GridCell.Tab.0.right" timestamp="1622367243022">
       <screen x="-1920" y="-217" width="1920" height="1057" />
     </state>
-    <state width="1899" height="357" key="GridCell.Tab.1.center/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359022540" />
-    <state width="1899" height="357" key="GridCell.Tab.1.left" timestamp="1622359022539">
+    <state width="1899" height="275" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622367243022" />
+    <state width="1899" height="275" key="GridCell.Tab.1.bottom" timestamp="1622367208863">
       <screen x="-1920" y="-217" width="1920" height="1057" />
     </state>
-    <state width="1899" height="357" key="GridCell.Tab.1.left/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359022539" />
-    <state width="1899" height="357" key="GridCell.Tab.1.right" timestamp="1622359022540">
+    <state width="1899" height="275" key="GridCell.Tab.1.bottom/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622367208863" />
+    <state width="1899" height="275" key="GridCell.Tab.1.center" timestamp="1622367208861">
       <screen x="-1920" y="-217" width="1920" height="1057" />
     </state>
-    <state width="1899" height="357" key="GridCell.Tab.1.right/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622359022540" />
+    <state width="1899" height="275" key="GridCell.Tab.1.center/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622367208861" />
+    <state width="1899" height="275" key="GridCell.Tab.1.left" timestamp="1622367208860">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="275" key="GridCell.Tab.1.left/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622367208860" />
+    <state width="1899" height="275" key="GridCell.Tab.1.right" timestamp="1622367208862">
+      <screen x="-1920" y="-217" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="275" key="GridCell.Tab.1.right/-1920.-217.1920.1057/0.23.1792.1033/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622367208862" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -212,6 +221,11 @@
           <url>file://$PROJECT_DIR$/csv_exercise_reader.py</url>
           <line>5</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/json_exercise.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

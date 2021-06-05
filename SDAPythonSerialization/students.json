@@ -1,17 +1,1 @@
-[
-  {
-    "name": "Peter",
-    "age": 23,
-    "scholarship": 400
-  },
-  {
-    "name": "July",
-    "age": 34,
-    "scholarship": 560
-  },
-  {
-    "name": "Marja",
-    "age": 130,
-    "scholarship": 560
-  }
-]
+{"name": "Peter", "age": 45, "rate": 23.0, "num_of_hours": 25}

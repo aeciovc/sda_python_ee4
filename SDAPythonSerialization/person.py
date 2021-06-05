@@ -16,6 +16,14 @@ class Employee(Person):
         self.rate = rate
         self.num_of_hours = num_of_hours
 
+    def as_json(self):
+        return {
+            "name": self.name,
+            "age": self.age,
+            "rate": self.rate,
+            "num_of_hours": self.num_of_hours
+        }
+
     def show_finance(self):
         return self.rate * self.num_of_hours
 
