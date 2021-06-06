@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8cdde3f7-0c07-4d45-8c79-a75704fef8a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateContextManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateContextManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateDecorators/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateDecorators/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonSerialization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonSerialization/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1tWPuB7gDUELTImQFY1LvkYIOOO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="RunManager" selected="Python.generator_even_numbers">
+    <configuration name="generator_even_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDAPythonIntermediateGeneratorsAndIterators" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generator_even_numbers.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="iterator_simple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDAPythonIntermediateGeneratorsAndIterators" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iterator_simple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="iterator_task" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDAPythonIntermediateGeneratorsAndIterators" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iterator_task.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testss" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDAPythonIntermediateGeneratorsAndIterators" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testss.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yield_samples" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="SDAPythonIntermediateGeneratorsAndIterators" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/yield_samples.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.generator_even_numbers" />
+        <item itemvalue="Python.yield_samples" />
+        <item itemvalue="Python.testss" />
+        <item itemvalue="Python.iterator_task" />
+        <item itemvalue="Python.iterator_simple" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8cdde3f7-0c07-4d45-8c79-a75704fef8a2" name="Default Changelist" comment="" />
+      <created>1622882091966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622882091966</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="659" y="249" key="#xdebugger.evaluate" timestamp="1622916373341">
+      <screen x="0" y="23" width="1792" height="1034" />
+    </state>
+    <state x="659" y="249" key="#xdebugger.evaluate/0.23.1792.1034@0.23.1792.1034" timestamp="1622916373341" />
+    <state width="1899" height="309" key="GridCell.Tab.0.bottom" timestamp="1622963709014">
+      <screen x="-1920" y="-221" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="354" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1034/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622891320301" />
+    <state width="1899" height="354" key="GridCell.Tab.0.bottom/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.993@-1920.-217.1920.1057" timestamp="1622891000476" />
+    <state width="1771" height="354" key="GridCell.Tab.0.bottom/0.23.1792.1034@0.23.1792.1034" timestamp="1622916472465" />
+    <state width="1771" height="354" key="GridCell.Tab.0.bottom/0.23.1792.1036@0.23.1792.1036" timestamp="1622916900163" />
+    <state width="1899" height="309" key="GridCell.Tab.0.bottom/1792.-137.1920.1057/-1920.-221.1920.1057/0.23.1792.1036@-1920.-221.1920.1057" timestamp="1622963709014" />
+    <state width="1899" height="220" key="GridCell.Tab.0.bottom/1792.-137.1920.1057/-1920.-221.1920.993/0.23.1792.1097@-1920.-221.1920.993" timestamp="1622962632398" />
+    <state width="1899" height="309" key="GridCell.Tab.0.center" timestamp="1622963709011">
+      <screen x="-1920" y="-221" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="354" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1034/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622891320300" />
+    <state width="1899" height="354" key="GridCell.Tab.0.center/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.993@-1920.-217.1920.1057" timestamp="1622891000476" />
+    <state width="1771" height="354" key="GridCell.Tab.0.center/0.23.1792.1034@0.23.1792.1034" timestamp="1622916472464" />
+    <state width="1771" height="354" key="GridCell.Tab.0.center/0.23.1792.1036@0.23.1792.1036" timestamp="1622916900161" />
+    <state width="1899" height="309" key="GridCell.Tab.0.center/1792.-137.1920.1057/-1920.-221.1920.1057/0.23.1792.1036@-1920.-221.1920.1057" timestamp="1622963709011" />
+    <state width="1899" height="220" key="GridCell.Tab.0.center/1792.-137.1920.1057/-1920.-221.1920.993/0.23.1792.1097@-1920.-221.1920.993" timestamp="1622962632394" />
+    <state width="1899" height="309" key="GridCell.Tab.0.left" timestamp="1622963709010">
+      <screen x="-1920" y="-221" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="354" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1034/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622891320300" />
+    <state width="1899" height="354" key="GridCell.Tab.0.left/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.993@-1920.-217.1920.1057" timestamp="1622891000475" />
+    <state width="1771" height="354" key="GridCell.Tab.0.left/0.23.1792.1034@0.23.1792.1034" timestamp="1622916472464" />
+    <state width="1771" height="354" key="GridCell.Tab.0.left/0.23.1792.1036@0.23.1792.1036" timestamp="1622916900160" />
+    <state width="1899" height="309" key="GridCell.Tab.0.left/1792.-137.1920.1057/-1920.-221.1920.1057/0.23.1792.1036@-1920.-221.1920.1057" timestamp="1622963709010" />
+    <state width="1899" height="220" key="GridCell.Tab.0.left/1792.-137.1920.1057/-1920.-221.1920.993/0.23.1792.1097@-1920.-221.1920.993" timestamp="1622962632392" />
+    <state width="1899" height="309" key="GridCell.Tab.0.right" timestamp="1622963709012">
+      <screen x="-1920" y="-221" width="1920" height="1057" />
+    </state>
+    <state width="1899" height="354" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1034/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622891320300" />
+    <state width="1899" height="354" key="GridCell.Tab.0.right/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.993@-1920.-217.1920.1057" timestamp="1622891000476" />
+    <state width="1771" height="354" key="GridCell.Tab.0.right/0.23.1792.1034@0.23.1792.1034" timestamp="1622916472464" />
+    <state width="1771" height="354" key="GridCell.Tab.0.right/0.23.1792.1036@0.23.1792.1036" timestamp="1622916900162" />
+    <state width="1899" height="309" key="GridCell.Tab.0.right/1792.-137.1920.1057/-1920.-221.1920.1057/0.23.1792.1036@-1920.-221.1920.1057" timestamp="1622963709012" />
+    <state width="1899" height="220" key="GridCell.Tab.0.right/1792.-137.1920.1057/-1920.-221.1920.993/0.23.1792.1097@-1920.-221.1920.993" timestamp="1622962632396" />
+    <state width="1899" height="220" key="GridCell.Tab.1.bottom" timestamp="1622962632404">
+      <screen x="-1920" y="-221" width="1920" height="993" />
+    </state>
+    <state width="1899" height="354" key="GridCell.Tab.1.bottom/-1920.-217.1920.1057/0.23.1792.1034/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622891316422" />
+    <state width="1899" height="354" key="GridCell.Tab.1.bottom/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.993@-1920.-217.1920.1057" timestamp="1622891000478" />
+    <state width="1771" height="354" key="GridCell.Tab.1.bottom/0.23.1792.1034@0.23.1792.1034" timestamp="1622916472466" />
+    <state width="1771" height="354" key="GridCell.Tab.1.bottom/0.23.1792.1036@0.23.1792.1036" timestamp="1622916901755" />
+    <state width="1899" height="354" key="GridCell.Tab.1.bottom/1792.-137.1920.1057/-1920.-221.1920.1057/0.23.1792.1036@-1920.-221.1920.1057" timestamp="1622959847482" />
+    <state width="1899" height="220" key="GridCell.Tab.1.bottom/1792.-137.1920.1057/-1920.-221.1920.993/0.23.1792.1097@-1920.-221.1920.993" timestamp="1622962632404" />
+    <state width="1899" height="220" key="GridCell.Tab.1.center" timestamp="1622962632400">
+      <screen x="-1920" y="-221" width="1920" height="993" />
+    </state>
+    <state width="1899" height="354" key="GridCell.Tab.1.center/-1920.-217.1920.1057/0.23.1792.1034/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622891316421" />
+    <state width="1899" height="354" key="GridCell.Tab.1.center/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.993@-1920.-217.1920.1057" timestamp="1622891000477" />
+    <state width="1771" height="354" key="GridCell.Tab.1.center/0.23.1792.1034@0.23.1792.1034" timestamp="1622916472466" />
+    <state width="1771" height="354" key="GridCell.Tab.1.center/0.23.1792.1036@0.23.1792.1036" timestamp="1622916901754" />
+    <state width="1899" height="354" key="GridCell.Tab.1.center/1792.-137.1920.1057/-1920.-221.1920.1057/0.23.1792.1036@-1920.-221.1920.1057" timestamp="1622959847481" />
+    <state width="1899" height="220" key="GridCell.Tab.1.center/1792.-137.1920.1057/-1920.-221.1920.993/0.23.1792.1097@-1920.-221.1920.993" timestamp="1622962632400" />
+    <state width="1899" height="220" key="GridCell.Tab.1.left" timestamp="1622962632399">
+      <screen x="-1920" y="-221" width="1920" height="993" />
+    </state>
+    <state width="1899" height="354" key="GridCell.Tab.1.left/-1920.-217.1920.1057/0.23.1792.1034/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622891316420" />
+    <state width="1899" height="354" key="GridCell.Tab.1.left/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.993@-1920.-217.1920.1057" timestamp="1622891000477" />
+    <state width="1771" height="354" key="GridCell.Tab.1.left/0.23.1792.1034@0.23.1792.1034" timestamp="1622916472465" />
+    <state width="1771" height="354" key="GridCell.Tab.1.left/0.23.1792.1036@0.23.1792.1036" timestamp="1622916901753" />
+    <state width="1899" height="354" key="GridCell.Tab.1.left/1792.-137.1920.1057/-1920.-221.1920.1057/0.23.1792.1036@-1920.-221.1920.1057" timestamp="1622959847481" />
+    <state width="1899" height="220" key="GridCell.Tab.1.left/1792.-137.1920.1057/-1920.-221.1920.993/0.23.1792.1097@-1920.-221.1920.993" timestamp="1622962632399" />
+    <state width="1899" height="220" key="GridCell.Tab.1.right" timestamp="1622962632402">
+      <screen x="-1920" y="-221" width="1920" height="993" />
+    </state>
+    <state width="1899" height="354" key="GridCell.Tab.1.right/-1920.-217.1920.1057/0.23.1792.1034/1792.-275.1920.1057@-1920.-217.1920.1057" timestamp="1622891316421" />
+    <state width="1899" height="354" key="GridCell.Tab.1.right/-1920.-217.1920.1057/0.23.1792.1097/1792.-275.1920.993@-1920.-217.1920.1057" timestamp="1622891000478" />
+    <state width="1771" height="354" key="GridCell.Tab.1.right/0.23.1792.1034@0.23.1792.1034" timestamp="1622916472466" />
+    <state width="1771" height="354" key="GridCell.Tab.1.right/0.23.1792.1036@0.23.1792.1036" timestamp="1622916901755" />
+    <state width="1899" height="354" key="GridCell.Tab.1.right/1792.-137.1920.1057/-1920.-221.1920.1057/0.23.1792.1036@-1920.-221.1920.1057" timestamp="1622959847482" />
+    <state width="1899" height="220" key="GridCell.Tab.1.right/1792.-137.1920.1057/-1920.-221.1920.993/0.23.1792.1097@-1920.-221.1920.993" timestamp="1622962632402" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iterating_sample.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/large_iteration.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iterator_simple.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iterator_simple.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iterator_simple.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iterator_simple.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/iterator_task.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/../../SDAPythonTests/lambda_tests.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/yield_samples.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/yield_samples.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/yield_samples.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/yield_samples.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/yield_samples.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/generator_even_numbers.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

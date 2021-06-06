@@ -1,0 +1,6 @@
+
+# Task 1 (map and lambda expresions)
+# Capitalize all items from 'fruits' list creating a new list, print out both lists
+
+["apples", "bananas", "oranges"]
+["APPLES", "BANANAS", "ORANGES"]

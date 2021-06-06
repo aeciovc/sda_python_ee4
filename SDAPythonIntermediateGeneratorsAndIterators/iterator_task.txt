@@ -1,0 +1,13 @@
+# task 1
+
+# - Create a EvenNumbers iterator to be able to
+#   iterate over evens and odds numbers
+
+# list_evens = List(1, 10, 'evens')
+# for item in list_evens:
+#       print(item)  # 2, 4, 6, 8, 10
+
+
+# task 2
+
+# - Modify the EvenAndOddNumbers class to support mode opration (evens or odds)
