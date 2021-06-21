@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="735b7c89-41f8-45ac-8455-d77a392a6ac8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateContextManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateContextManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateContextManager/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateDecorators/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateDecorators/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateExceptions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateExceptions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateGeneratorsAndIterators/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateGeneratorsAndIterators/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateLambda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateLambda/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_exercise.txt" beforeDir="false" afterPath="$PROJECT_DIR$/csv_exercise.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person.py" beforeDir="false" afterPath="$PROJECT_DIR$/person.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students.json" beforeDir="false" afterPath="$PROJECT_DIR$/students.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

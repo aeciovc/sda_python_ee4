@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe6867ab-64de-47a6-94ab-e8c951f398df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../SDAPythonTechTime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonTechTime/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateAbstractClasses/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateContextManager/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateContextManager/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateContextManager/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateDecorators/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateDecorators/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateGeneratorsAndIterators/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateGeneratorsAndIterators/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonIntermediateLambda/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonIntermediateLambda/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SDAPythonSerialization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SDAPythonSerialization/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,21 +247,6 @@
           <url>file://$PROJECT_DIR$/custom_exceptions.py</url>
           <line>20</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/exceptions_ex.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/exceptions_ex.py</url>
-          <line>21</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/exceptions_ex.py</url>
-          <line>20</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
