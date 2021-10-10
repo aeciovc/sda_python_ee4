@@ -1,0 +1,66 @@
+[
+  {
+    "model": "viewer.genre",
+    "pk": 2,
+    "fields": {
+      "name": "Comedy",
+      "is_favorite": false
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 6,
+    "fields": {
+      "name": "Action",
+      "is_favorite": false
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 7,
+    "fields": {
+      "name": "Thriller",
+      "is_favorite": false
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 8,
+    "fields": {
+      "name": "Drama",
+      "is_favorite": false
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 9,
+    "fields": {
+      "name": "Horror",
+      "is_favorite": false
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 11,
+    "fields": {
+      "name": "Adventure",
+      "is_favorite": false
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 12,
+    "fields": {
+      "name": "Animation",
+      "is_favorite": true
+    }
+  },
+  {
+    "model": "viewer.genre",
+    "pk": 13,
+    "fields": {
+      "name": "Romance",
+      "is_favorite": true
+    }
+  }
+]
