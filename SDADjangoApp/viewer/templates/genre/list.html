@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List of Genres</title>
+
+    <h4> List of genres</h4>
+
+    <ul>
+    {% for genre in list_genre %}
+        <li>{{ genre.name }} <i>({{genre.is_favorite}}) </i></li>
+    {% endfor %}
+    </ul>
+</head>
+<body>
+
+</body>
+</html>

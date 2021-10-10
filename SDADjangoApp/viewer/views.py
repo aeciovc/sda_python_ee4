@@ -1,10 +1,18 @@
 from django.http import HttpResponse
 from viewer.models import Genre
 
+from django.shortcuts import render
+
 
 def welcome(request, s):
-    city = request.GET.get('city', '')
-    return HttpResponse(f"Welcome to Viewer app, {s}! Very good to have you in {city}")
+    city_request = request.GET.get('city', '')
+    return render(
+        request, template_name="welcome.html",
+        context={
+            'name': s,
+            'city': city_request
+        }
+    )
 
 
 def sum_numbers(request):
@@ -59,9 +67,9 @@ def list_genre(request):
     if is_favorite_filter:
         genres = genres.filter(is_favorite=is_favorite_filter)
 
-    genre_response = ""
-    for genre in genres:
-        genre_row = f"<b> {genre.name} </b>(<i>{genre.is_favorite}</i>)<br>"
-        genre_response = genre_response + genre_row
-
-    return HttpResponse(f"List of genres: <br> {genre_response}")
+    return render(
+        request, template_name="genre/list.html",
+        context={
+            'list_genre': genres
+        }
+    )
