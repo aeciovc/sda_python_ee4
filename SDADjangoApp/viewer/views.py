@@ -49,10 +49,19 @@ def delete_genre(request, s):
 
 def list_genre(request):
 
+    name_filter = request.GET.get('name', None)
+    is_favorite_filter = request.GET.get('favorite', None)
+
     genres = Genre.objects.all()
+    if name_filter:
+        genres = genres.filter(name__startswith=name_filter)
+
+    if is_favorite_filter:
+        genres = genres.filter(is_favorite=is_favorite_filter)
 
     genre_response = ""
     for genre in genres:
-        genre_response = genre_response + "<h3>" + genre.name + "</h3>" + " <br>"
+        genre_row = f"<b> {genre.name} </b>(<i>{genre.is_favorite}</i>)<br>"
+        genre_response = genre_response + genre_row
 
     return HttpResponse(f"List of genres: <br> {genre_response}")

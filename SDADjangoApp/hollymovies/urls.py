@@ -27,20 +27,4 @@ urlpatterns = [
     path('viewer/genre/update/<s>/', update_genre),
     path('viewer/genre/delete/<s>/', delete_genre),
     path('viewer/genre/list/', list_genre)
-
-
 ]
-
-"""
-
-1* Create a new Boolean Field in the genre table
-    is_
-
-2* In viewer/genre/list/
-
-Implement filters for:
-    - name starting with ?name=The
-
-
-
-"""
