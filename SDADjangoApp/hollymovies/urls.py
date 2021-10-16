@@ -16,15 +16,21 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from viewer.views import welcome, sum_numbers, create_genre, update_genre, delete_genre, list_genre
+from viewer.views import (
+    welcome, sum_numbers, create_genre, update_genre, delete_genre, list_genre,
+    create_movie, MoviesView, MovieCreateView
+)
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('welcome/<s>', welcome),
+    path('home/', welcome, name='index'),
     path('sum/', sum_numbers),
-    path('viewer/genre/create/', create_genre),
-    path('viewer/genre/update/<s>/', update_genre),
-    path('viewer/genre/delete/<s>/', delete_genre),
-    path('viewer/genre/list/', list_genre)
+    path('viewer/genres/create/', create_genre),
+    path('viewer/genres/update/<s>/', update_genre),
+    path('viewer/genres/delete/<s>/', delete_genre),
+    path('viewer/genres/list/', list_genre, name='genre-list'),
+
+    path('viewer/movies/create', MovieCreateView.as_view()),
+    path('viewer/movies/list', MoviesView.as_view(), name='movie-list'),
 ]

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .vertical-menu {
+          width: 200px;
+        }
+
+        .vertical-menu a {
+          background-color: #eee;
+          color: black;
+          display: block;
+          padding: 12px;
+          text-decoration: none;
+        }
+
+        .vertical-menu a:hover {
+          background-color: #ccc;
+        }
+
+        .vertical-menu a.active {
+          background-color: #04AA6D;
+          color: white;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>Movie app</title>
+</head>
+<body>
+    <div class="vertical-menu">
+      <a href="{% url 'index' %}" class="active">Home</a>
+      <a href="{% url 'genre-list' %}">Genres</a>
+      <a href="{% url 'movie-list' %}">Movies</a>
+      <a href="#">Directors</a>
+      <a href="#">Actors</a>
+    </div>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

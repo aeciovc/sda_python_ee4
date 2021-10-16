@@ -1,15 +1,19 @@
 from django.http import HttpResponse
-from viewer.models import Genre
+from django.views import View
+from django.views.generic import TemplateView, ListView, FormView
+
+from viewer.models import Genre, Movie
 
 from django.shortcuts import render
 
 
-def welcome(request, s):
+def welcome(request):
+    name_request = request.GET.get('name', '')
     city_request = request.GET.get('city', '')
     return render(
         request, template_name="welcome.html",
         context={
-            'name': s,
+            'name': name_request,
             'city': city_request
         }
     )
@@ -73,3 +77,34 @@ def list_genre(request):
             'list_genre': genres
         }
     )
+
+
+def create_movie(request):
+
+    title_req = request.GET.get('title', None)
+    rating_req = request.GET.get('rating', 0)
+    released_req = request.GET.get('released', None)
+    description_req = request.GET.get('description', None)
+    genre_id_req = request.GET.get('genre_id', None)
+
+    movie = Movie(
+        title=title_req,
+        rating=rating_req,
+        released=released_req,
+        description=description_req,
+        genre=Genre.objects.get(id=genre_id_req)
+    )
+    movie.save()
+
+    return HttpResponse(f"Movie has been created with id {movie.id}")
+
+
+class MoviesView(ListView):
+    template_name = "movie/list.html"
+    model = Movie
+
+from viewer.forms import MovieForm
+class MovieCreateView(FormView):
+    template_name = "movie/create_form.html"
+    form_class = MovieForm
+
