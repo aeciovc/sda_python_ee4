@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.views import View
 from django.views.generic import TemplateView, ListView, FormView
+from viewer.forms import MovieForm
 
 from viewer.models import Genre, Movie
 
@@ -103,8 +104,9 @@ class MoviesView(ListView):
     template_name = "movie/list.html"
     model = Movie
 
-from viewer.forms import MovieForm
+
 class MovieCreateView(FormView):
     template_name = "movie/create_form.html"
     form_class = MovieForm
+    success_url = "/home/"
 
