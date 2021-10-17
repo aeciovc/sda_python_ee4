@@ -32,7 +32,7 @@ urlpatterns = [
     path('viewer/genres/delete/<s>/', delete_genre),
     path('viewer/genres/list/', list_genre, name='genre-list'),
 
-    path('viewer/movies/create', MovieCreateView.as_view()),
+    path('viewer/movies/create', MovieCreateView.as_view(), name='movie-create'),
     path('viewer/movies/update/<pk>/', MovieUpdateView.as_view(), name='movie-update'),
     path('viewer/movies/delete/<pk>/', MovieDeleteView.as_view(), name='movie-delete'),
     path('viewer/movies/list', MoviesView.as_view(), name='movie-list'),

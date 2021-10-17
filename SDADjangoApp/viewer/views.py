@@ -114,6 +114,10 @@ class MovieCreateView(CreateView):
     form_class = MovieForm
     success_url = reverse_lazy("success")
 
+    def form_invalid(self, form):
+        LOGGER.warning('User provided invalid data while creating a movie.')
+        return super().form_invalid(form)
+
 
 class MovieUpdateView(UpdateView):
     template_name = "movie/create_form.html"
