@@ -1,11 +1,22 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h4> List of genres</h4>
-
-    <ul>
-        {% for genre in list_genre %}
-            <li>{{ genre.name }} <i>({{genre.is_favorite}}) </i></li>
-        {% endfor %}
-    </ul>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Favorite?</th>
+        </tr>
+      </thead>
+      <tbody>
+      {% for genre in list_genre %}
+        <tr>
+          <th scope="row">{{ genre.pk }}</th>
+          <td>{{ genre.name }}</td>
+          <td>{{genre.is_favorite}}</td>
+        </tr>
+      {% endfor %}
+      </tbody>
+    </table>
 {% endblock %}

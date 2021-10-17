@@ -19,7 +19,7 @@ from django.views.generic import TemplateView
 
 from viewer.views import (
     welcome, sum_numbers, create_genre, update_genre, delete_genre, list_genre,
-    create_movie, MoviesView, MovieCreateView
+    create_movie, MoviesView, MovieCreateView, MovieUpdateView, MovieDeleteView
 )
 
 
@@ -33,6 +33,8 @@ urlpatterns = [
     path('viewer/genres/list/', list_genre, name='genre-list'),
 
     path('viewer/movies/create', MovieCreateView.as_view()),
+    path('viewer/movies/update/<pk>/', MovieUpdateView.as_view(), name='movie-update'),
+    path('viewer/movies/delete/<pk>/', MovieDeleteView.as_view(), name='movie-delete'),
     path('viewer/movies/list', MoviesView.as_view(), name='movie-list'),
 
     path('viewer/success', TemplateView.as_view(template_name="success.html"), name="success"),
