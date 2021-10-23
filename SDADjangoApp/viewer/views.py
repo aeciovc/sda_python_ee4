@@ -55,13 +55,21 @@ def update_genre(request, s):
 
 
 def delete_genre(request, s):
+    if request.method == "GET":
+        movie = Movie.objects.get(id=s)
+        return render(
+            request, template_name='movie/confirm_delete.html',
+            context={
+                'object': movie
+            }
+        )
+    else:
+        if not Movie.objects.filter(id=int(s)).exists():
+            return HttpResponse(f"The genre with id {s} does not exist")
 
-    if not Genre.objects.filter(id=int(s)).exists():
-        return HttpResponse(f"The genre with id {s} does not exist")
+        Movie.objects.get(id=int(s)).delete()
 
-    Genre.objects.get(id=int(s)).delete()
-
-    return HttpResponse(f"The genre with id {s} has been removed")
+        return HttpResponse(f"The genre with id {s} has been removed")
 
 
 def list_genre(request):

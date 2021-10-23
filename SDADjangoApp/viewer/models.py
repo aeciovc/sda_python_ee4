@@ -17,5 +17,8 @@ class Movie(models.Model):
     description = models.TextField()
     created = models.DateTimeField(auto_now_add=True)
 
+    def small_description(self):
+        return f'{self.description[:30]}...'
+
     def __str__(self):
         return self.title
