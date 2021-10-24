@@ -1,9 +1,15 @@
 from logging import getLogger
+
+from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.urls import reverse_lazy
 from django.views import View
 from django.views.generic import TemplateView, ListView, FormView, CreateView, UpdateView, DeleteView
 from viewer.forms import MovieForm
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.views import redirect_to_login
+from django.contrib.auth.views import PasswordChangeView, PasswordChangeDoneView
+
 
 from viewer.models import Genre, Movie
 
@@ -72,8 +78,9 @@ def delete_genre(request, s):
         return HttpResponse(f"The genre with id {s} has been removed")
 
 
-def list_genre(request):
 
+@login_required
+def list_genre(request):
     name_filter = request.GET.get('name', None)
     is_favorite_filter = request.GET.get('favorite', None)
 
@@ -112,12 +119,12 @@ def create_movie(request):
     return HttpResponse(f"Movie has been created with id {movie.id}")
 
 
-class MoviesView(ListView):
+class MoviesView(LoginRequiredMixin, ListView):
     template_name = "movie/list.html"
     model = Movie
 
 
-class MovieCreateView(CreateView):
+class MovieCreateView(LoginRequiredMixin, CreateView):
     template_name = "movie/create_form.html"
     form_class = MovieForm
     success_url = reverse_lazy("success")
@@ -127,14 +134,22 @@ class MovieCreateView(CreateView):
         return super().form_invalid(form)
 
 
-class MovieUpdateView(UpdateView):
+class MovieUpdateView(LoginRequiredMixin, UpdateView):
     template_name = "movie/create_form.html"
     model = Movie
     form_class = MovieForm
     success_url = reverse_lazy("success")
 
 
-class MovieDeleteView(DeleteView):
+class MovieDeleteView(LoginRequiredMixin, DeleteView):
     template_name = 'movie/confirm_delete.html'
     model = Movie
     success_url = reverse_lazy('movie-list')
+
+
+class OwnPasswordChange(PasswordChangeView):
+    template_name = 'password_change_form.html'
+
+class OwnPasswordChangeDone(PasswordChangeDoneView):
+    template_name = 'password_change_done.html'
+
