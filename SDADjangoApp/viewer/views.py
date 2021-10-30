@@ -3,12 +3,9 @@ from logging import getLogger
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.urls import reverse_lazy
-from django.views import View
-from django.views.generic import TemplateView, ListView, FormView, CreateView, UpdateView, DeleteView
+from django.views.generic import ListView, CreateView, UpdateView, DeleteView
 from viewer.forms import MovieForm
-from django.contrib.auth.mixins import LoginRequiredMixin
-from django.contrib.auth.views import redirect_to_login
-from django.contrib.auth.views import PasswordChangeView, PasswordChangeDoneView
+from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
 
 
 from viewer.models import Genre, Movie
@@ -124,32 +121,28 @@ class MoviesView(LoginRequiredMixin, ListView):
     model = Movie
 
 
-class MovieCreateView(LoginRequiredMixin, CreateView):
+class MovieCreateView(LoginRequiredMixin, PermissionRequiredMixin, CreateView):
     template_name = "movie/create_form.html"
     form_class = MovieForm
     success_url = reverse_lazy("success")
+    permission_required = 'viewer.add_movie'
 
     def form_invalid(self, form):
         LOGGER.warning('User provided invalid data while creating a movie.')
         return super().form_invalid(form)
 
 
-class MovieUpdateView(LoginRequiredMixin, UpdateView):
+class MovieUpdateView(LoginRequiredMixin, PermissionRequiredMixin, UpdateView):
     template_name = "movie/create_form.html"
     model = Movie
     form_class = MovieForm
     success_url = reverse_lazy("success")
+    permission_required = 'viewer.change_movie'
 
 
-class MovieDeleteView(LoginRequiredMixin, DeleteView):
+class MovieDeleteView(LoginRequiredMixin, PermissionRequiredMixin, DeleteView):
     template_name = 'movie/confirm_delete.html'
     model = Movie
     success_url = reverse_lazy('movie-list')
-
-
-class OwnPasswordChange(PasswordChangeView):
-    template_name = 'password_change_form.html'
-
-class OwnPasswordChangeDone(PasswordChangeDoneView):
-    template_name = 'password_change_done.html'
+    permission_required = 'viewer.delete_movie'
 

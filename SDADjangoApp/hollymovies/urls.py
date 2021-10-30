@@ -21,29 +21,34 @@ from django.contrib.auth.views import PasswordChangeView
 
 from viewer.views import (
     welcome, sum_numbers, create_genre, update_genre, delete_genre, list_genre,
-    create_movie, MoviesView, MovieCreateView, MovieUpdateView, MovieDeleteView, OwnPasswordChange,
-    OwnPasswordChangeDone
+    create_movie, MoviesView, MovieCreateView, MovieUpdateView, MovieDeleteView
 )
+from users.views import OwnPasswordChangeDone, OwnPasswordChange, SignUpView
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', welcome, name='index'),
+
+    # Viewer App
     path('sum/', sum_numbers),
     path('viewer/genres/create/', create_genre),
     path('viewer/genres/update/<s>/', update_genre),
     path('viewer/genres/delete/<s>/', delete_genre),
     path('viewer/genres/list/', list_genre, name='genre-list'),
-
     path('viewer/movies/create', MovieCreateView.as_view(), name='movie-create'),
     path('viewer/movies/update/<pk>/', MovieUpdateView.as_view(), name='movie-update'),
     path('viewer/movies/delete/<pk>/', MovieDeleteView.as_view(), name='movie-delete'),
     path('viewer/movies/list/', MoviesView.as_view(), name='movie-list'),
-
     path('viewer/success', TemplateView.as_view(template_name="success.html"), name="success"),
 
+    # User App
     path('accounts/login/', LoginView.as_view(), name='login'),
     path('logout/', LogoutView.as_view(), name='logout'),
     path('change-password/', OwnPasswordChange.as_view(), name='change'),
     path('password_change/done/', OwnPasswordChangeDone.as_view(), name='password_change_done'),
+    path('sign-up/', SignUpView.as_view(), name='sign_up'),
+
+    # API
+    path('rest_api/', include('rest_api.urls')),
 ]

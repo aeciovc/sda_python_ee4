@@ -1,10 +1,13 @@
 import re
 
+from django.contrib.auth.models import Group
+from django.contrib.auth.forms import UserCreationForm
 from django.core.exceptions import ValidationError
 from django.forms import (
     CharField, DateField, Form, IntegerField, ModelChoiceField, Textarea,
     ModelForm)
 
+from users.models import Profile
 from viewer.models import Genre, Movie
 
 from datetime import date
