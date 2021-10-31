@@ -24,6 +24,7 @@
           <td>{{ movie.rating }}</td>
           <td>{{ movie.released|date:"Y" }}</td>
           <td>{{ movie.small_description }}</td>
+          <td>{{ movie.retrieve_name }}</td>
           <td>
               <a class="btn btn-primary" href="{% url 'movie-update' movie.pk %}" role="button">Update</a>
               <a class="btn btn-outline-danger" href="{% url 'movie-delete' movie.pk %}" role="button">Delete</a>

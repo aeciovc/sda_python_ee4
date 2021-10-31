@@ -35,6 +35,9 @@
           {{ form.image.errors }}
           <label for="{{ form.image.id_for_label }}">Image:</label>
           {{ form.image }}
+            {% if movie %}
+                <img src="{{ movie.image_name }}">
+            {% endif %}
         </div>
         <div class="mb-3">
           {{ form.description.errors }}
