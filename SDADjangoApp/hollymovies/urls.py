@@ -13,12 +13,14 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 from django.views.generic import TemplateView
 from django.contrib.auth.views import LoginView, LogoutView
 from django.contrib.auth.views import PasswordChangeView
 
+from hollymovies import settings
 from viewer.views import (
     welcome, sum_numbers, create_genre, update_genre, delete_genre, list_genre,
     create_movie, MoviesView, MovieCreateView, MovieUpdateView, MovieDeleteView
@@ -51,4 +53,4 @@ urlpatterns = [
 
     # API
     path('rest_api/', include('rest_api.urls')),
-]
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

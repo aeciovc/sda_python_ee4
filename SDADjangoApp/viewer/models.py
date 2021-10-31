@@ -16,6 +16,7 @@ class Movie(models.Model):
     released = models.DateField()
     description = models.TextField()
     created = models.DateTimeField(auto_now_add=True)
+    image = models.ImageField(upload_to='movies/', default='movies/default.jpg')
 
     def small_description(self):
         return f'{self.description[:30]}...'

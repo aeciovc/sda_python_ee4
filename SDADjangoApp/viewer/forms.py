@@ -58,3 +58,6 @@ class MovieForm(ModelForm):
             "Commedies aren't so good to be rated over 5."
             )
         return result
+
+    def save(self, commit=True):
+        return super().save(commit)

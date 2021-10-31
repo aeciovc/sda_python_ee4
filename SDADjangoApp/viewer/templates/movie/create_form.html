@@ -32,6 +32,11 @@
             </div>
         </div>
         <div class="mb-3">
+          {{ form.image.errors }}
+          <label for="{{ form.image.id_for_label }}">Image:</label>
+          {{ form.image }}
+        </div>
+        <div class="mb-3">
           {{ form.description.errors }}
           <label for="{{ form.description.id_for_label }}">Description:</label>
           {{ form.description }}
